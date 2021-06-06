@@ -14,8 +14,8 @@ public class Hilo extends Thread {
 			monitor.pingServidorOriginal();
 			monitor.pingServidorRedudante();
 			try {
-				Thread.sleep(4000);
-			} catch (InterruptedException e) { //espera 40 seg para las respuestas de ping
+				Thread.sleep(5000);
+			} catch (InterruptedException e) { //espera 50 seg para las respuestas de ping
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} 
